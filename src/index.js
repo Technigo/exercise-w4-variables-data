@@ -4,7 +4,7 @@ Create a variable that stores the name of your cafe.
 Print out a greeting such as "Welcome to Technigo Cafe! What would you like to order today?"
 Where Technigo Cafe is replaced by the name of your cafe that is stored in the variable.
 */
-const cafeName = "Technigo Cafe";
+const cafeName = "Xings Cafe";
 console.log(`Welcome to ${cafeName}! What would you like to order today?`);
 
 /*
