@@ -7,10 +7,8 @@ Where Technigo Cafe is replaced by the name of your cafe that is stored in the v
 const cafeName = "Xings Cafe";
 alert(`Welcome to ${cafeName}`);
 const name = prompt("What's your name?");
-console.log("username:", name);
-
 const cafe = prompt(`Hello ${name.toUpperCase()}, what would you like to order today?`);
-console.log("type of coffee:", cafe);
+
 /*
 2)
 Create a variable that stores the price of a coffee.
@@ -27,7 +25,7 @@ const totalPrice = coffeePrice * nrOfCoffees;
 
 // display the total price
 alert("Here you go, that'll be " + totalPrice + " euros! Have a good day!");
-console.log("number of coffee:", nrOfCoffees);
+
 /*
 3)
 Create a variable that stores a boolean.
@@ -41,7 +39,7 @@ if (goodCaffe === "yes") {
 } else {
     alert("You said this coffee is the best, that is interesting")
 };
-console.log("yes or no?", goodCaffe);
+
 /*
 4)
 Create a variable called cafeGuests, that shows us how many cafeGuests we have.
@@ -53,11 +51,11 @@ Print it out. => This should give you the new value.
 // let value changable
 let cafeGuests = 5;
 alert(`we have ${cafeGuests} guests today!`);
-console.log("nr of guests:", cafeGuests);
+
 // assign new value
 cafeGuests = 9;
 alert(`we have ${cafeGuests} guests today!`);
-console.log("new nr of guests:", cafeGuests);
+
 /*
 5)
 Create a variable called maxGuests, that shows us how many guests are allowed in the cafe.
@@ -67,15 +65,14 @@ assign it a new value.
 Print it out. => This should give you an error because it shouldn't be able to be changed.
 */
 const maxGuests = 8;
-console.log("max nr of guests:", maxGuests);
+
 alert(`The max guests of ${maxGuests} is allowed in the cafe.`);
 
 // maxGuests = 10;
-// console.log("new max nr of guests:", maxGuests);
 
 // compare number of guests with max number of guests
 const nrOfGuests = prompt("How many guests do we have now?");
-console.log("nr of guests:", nrOfGuests);
+
 if ( nrOfGuests <= maxGuests) {
     alert("Welcome in!")
 } else {
@@ -90,14 +87,14 @@ Print out that string in only UPPERCASE letters.
 */
 const user = prompt("What's your name?");
 alert(`Hello ${user.toUpperCase()}, how are you today?`);
-console.log("name with upperCase:", user);
+
 /*
 7)
 Print out the same string in only lowercase letters.
 */
 const username =prompt("What's your name?");
 alert(`Hello ${username.toLowerCase()}, how are you today?`);
-console.log("name with lowerCase:", username);
+
 /*
 8) **BONUS**
 Print out the string "Today we have a special summer deal!". 
